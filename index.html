@@ -5,15 +5,25 @@
     <meta name="description" content="Curso de "Python">
     <meta name="keywords" content="Python, Tutorial, Curso, Programar, Programación, Aprende">
     <title>Curso python de Solaritocompu.</title>
-    <link href="https://solaritocompu.github.io/python-tutocursos/main.css" rel="stylesheet">
+    <link href="http://192.168.0.254/python-tutocursos/main.css" rel="stylesheet">
   </head>
   <body>
-    <div class="content">
-      <div class="heade"> <img class="imagen-centralizada" src="https://solaritocompu.github.io/python-tutocursos/logo-python.webp"
-          alt="logo" title="logo de python">
-        <h1>Curso Python de Solaritocompu.</h1>
-      </div>
-      <h1> Requisitos para el curso </h1>
+      <header>
+          <div class="heade">
+            <img class="imagen-centralizada" src="http://192.168.0.254/python-tutocursos/logo-python.webp"
+            alt="logo" title="logo de python">
+            <h1>Curso Python de Solaritocompu.</h1>
+          </div>
+      </header>
+      <nav>
+          <a href="http://192.168.0.254/index.html">Principal</a> |
+          <a href="#requisitos_para_el_curso">Requisitos para el curso</a> |
+          <a href="#mostrar_texto_en_el_shell">Mostrar texto en el shell</a> |
+          <a href="#como_ejecutar_un_archivo_en_thonny">Como ejecutar un archivo en Thonny</a> |
+      </nav>
+      <section>
+          <hr>
+      <h2 id="requisitos_para_el_curso">Requisitos para el curso </h2>
       <ol>
         <li>Tener una computadora y saber usarla también puede ser un celular o
           una tableta.</li>
@@ -29,7 +39,7 @@
             instalarlo</a> </li>
       </ol>
       <hr>
-      <h2>Mostrar texto en el shell</h2>
+      <h2 id="mostrar_texto_en_el_shell">Mostrar texto en el shell</h2>
       Si abres Thonny se vera lo siguiente abajo:<br>
       <p> <code> Python 3.7.9 (bundled)<br>
           &gt;&gt;&gt; </code></p>
@@ -42,7 +52,7 @@
         contenido de variables lo que es muy útil y lo explicare mas adelante en
         el curso. </p>
       <hr>
-      <h2> Como ejecutar un archivo en Thonny </h2>
+      <h2 id="como_ejecutar_un_archivo_en_thonny">Como ejecutar un archivo en Thonny </h2>
       <p> En Thonny se escribe el código en el área de texto y se ejecutan con
         la opción del menú correspondiente o presionando f5 si no lo haz
         guardado saldrá una ventada de guardar archivo ponle el nombre
@@ -106,15 +116,26 @@
        >>> k = 3.2<br>
        >>> type(k)<br>
        &lt;class 'float'&gt; #De tipo float<br>
-
+       </code></p>         
+       <p>Tipos de variable</p>
+       <p><code>
+       a = 5 #integer<br>
+       b = 7.35 #float<br>
+       c = "texto escrito" #string<br>
+       d = [1, 2, 3, 4, 5] #list<br>
+       e = {1:"uno", 2:"dos", 3:"test"} #dictionary<br>
+       
+       <p>Reglas de nombres de variables</p>
+       >>> 1var = 78
+         File "<stdin>", line 1
+           1var = 78
+            ^
+       SyntaxError: invalid syntax
        </code></p>
-         
-       Tipos de variable<br>
-       a = 5 #int
        
-       
-		
       <h1>Esta web esta en construcción.</h1>
+      </section>
+      <footer>
       <hr>
       <p> <a href="mailto:solaritocompu@gmail.com">Puede mandarnos un email con
           preguntas o sugerencias.</a> <br>
@@ -123,6 +144,7 @@
       <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"
           style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>
       This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
-        Commons Attribution 4.0 International License</a>. </div>
+        Commons Attribution 4.0 International License</a>.
+        </footer>
   </body>
 </html>

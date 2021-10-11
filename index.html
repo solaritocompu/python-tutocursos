@@ -3,148 +3,405 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="description" content="Curso de "Python">
-    <meta name="keywords" content="Python, Tutorial, Curso, Programar, Programación, Aprende">
-    <title>Curso python de Solaritocompu.</title>
-    <link href="https://solaritocompu.github.io/python-tutocursos/main.css" rel="stylesheet">
+    <meta name="keywords"
+    content="Python, Tutorial, Curso, Programar, Programación, Aprende">
+    <title>
+      Curso python de Solaritocompu.
+    </title>
+    <link href="https://solaritocompu.github.io/python-tutocursos/main.css"
+    rel="stylesheet">
   </head>
   <body>
-      <header>
-          <div class="heade">
-            <img class="imagen-centralizada" src="https://solaritocompu.github.io/python-tutocursos/logo-python.webp"
-            alt="logo" title="logo de python">
-            <h1>Curso Python de Solaritocompu.</h1>
-          </div>
-      </header>
-      <nav>
-          <a href="https://solaritocompu.github.io/index.html">Principal</a> |
-          <a href="#requisitos_para_el_curso">Requisitos para el curso</a> |
-          <a href="#mostrar_texto_en_el_shell">Mostrar texto en el shell</a> |
-          <a href="#como_ejecutar_un_archivo_en_thonny">Como ejecutar un archivo en Thonny</a> |
-      </nav>
-      <section>
-          <hr>
-      <h2 id="requisitos_para_el_curso">Requisitos para el curso </h2>
+    <header>
+      <div class="heade">
+        <img class="imagen-centralizada"
+        src="https://solaritocompu.github.io/python-tutocursos/logo-python.webp"
+        alt="logo" title="logo de python">
+        <h1>Curso Python de Solaritocompu.</h1>
+      </div>
+    </header>
+    <nav>
+      <a href="https://solaritocompu.github.io/index.html">
+        Principal
+      </a> |
+      <a href="#requisitos_para_el_curso">
+        Requisitos para el curso
+      </a> |
+      <a href="#mostrar_texto_en_el_shell">
+        Mostrar texto en el shell
+      </a> |
+      <a href="#como_ejecutar_un_archivo_en_thonny">
+        Como ejecutar un archivo en Thonny
+      </a> |
+      <a href="#comentarios">
+        Comentarios
+      </a> |
+      <a href="#variables">
+        Variables
+      </a> |
+    </nav>
+    <section>
+      <hr>
+      <h2>Como navegar por el sitio?</h2>
+      <p>
+        En computadora haz click con el mouse en los enlaces de la barra
+        de navegación arriba para leer la sección que elijas y para
+        volver arriba presiona la tecla home. En celular y tableta
+        arrastra el dedo.
+      </p>
+       
+      <hr>
+      <h2 id="requisitos_para_el_curso">
+        Requisitos para el curso
+      </h2>
       <ol>
-        <li>Tener una computadora y saber usarla también puede ser un celular o
-          una tableta.</li>
-        <li> Saber usar un editor de texto. No te quejes! Bendito... Quieres
-          programar y no sabes como guardar un archivo de texto. Mejor busca en
-          Internet como hacerlo o coge un curso de computadora antes de seguir
-          este curso. Hay que gatear antes que caminar y caminar antes que
-          correr. </li>
-        <li> Instalar el Thonny porque incluye el editor y python en un solo
-          instalador. Viene listo para escribir archivos de código sin tener que
-          configurarlo y tiene un área para ejecutar instrucciones en el shell.
-          <a href="https://thonny.org/">Web de Thonny para descargarlo e
-            instalarlo</a> </li>
+        <li>
+          Tener una computadora y saber usarla también puede ser un
+          celular o una tableta.
+        </li>
+        <li>
+          Saber usar un editor de texto. No te quejes! Bendito...
+          Quieres programar y no sabes como guardar un archivo de texto.
+          Mejor busca en Internet como hacerlo o coge un curso de
+          computadora antes de seguir este curso. Hay que gatear antes
+          que caminar y caminar antes que correr.
+        </li>
+        <li>
+          Instalar el Thonny porque incluye el editor y python en un
+          solo instalador. Viene listo para escribir archivos de código
+          sin tener que configurarlo y tiene un área para ejecutar
+          instrucciones en el shell.
+          <a href="https://thonny.org/">
+            Web de Thonny para descargarlo e instalarlo
+          </a>
+        </li>
+        <li>
+          Ejecutar los comandos del curso en el shell si tienen >>>
+          delante y de lo contrario en el área de texto con el botón.
+        </li>
       </ol>
       <hr>
-      <h2 id="mostrar_texto_en_el_shell">Mostrar texto en el shell</h2>
-      Si abres Thonny se vera lo siguiente abajo:<br>
-      <p> <code> Python 3.7.9 (bundled)<br>
-          &gt;&gt;&gt; </code></p>
-      <p> Escribe print("Hola mundo") después de &gt;&gt;&gt; y presiona enter.
-        Veras que aparece en el shell Hola mundo o cualquier carácter o numero
-        que introduzcas entre las comillas. La instruccion print significa
-        imprime así que le estamos diciendo a la computadora imprime Hola mundo
-        y ella lo hace. Esta importante instrucción es la primera que se
-        aprende, sirve para mostrar texto y también sirve para mostrar el
-        contenido de variables lo que es muy útil y lo explicare mas adelante en
-        el curso. </p>
-      <hr>
-      <h2 id="como_ejecutar_un_archivo_en_thonny">Como ejecutar un archivo en Thonny </h2>
-      <p> En Thonny se escribe el código en el área de texto y se ejecutan con
-        la opción del menú correspondiente o presionando f5 si no lo haz
-        guardado saldrá una ventada de guardar archivo ponle el nombre
-        archivo.py y guárdalo. No olvides guardar el archivo antes de ejecutar.</p>
-      <hr>
-      <h2>Comentarios</h2>
-      <p> Los comentarios son una forma de explicar como funciona una sección de
-        código, por si necesitas editar tu programa el próximo mes te ayude a
-        recordar como funciona una o varias instrucciones. Los comentarios se
-        escriben así:</p>
-      <code> #Esto es un comentario y es solo para que alguien lo lea. </code>
-      <br>
-      <p> Si escribes algo que no sea una instrucción valida sin # delante y
-        ejecutas, nos dará un error y el programa se detendrá. También los
-        comentarios sirven para dejar sin efecto una o varias lineas de código y
-        así el interprete python no las ejecute. Si estas indeciso entre una
-        linea u otra puedes comentar una y probar la otra.</p>
-      <p> <code> print("Se ejecutara esta linea cuando corra el programa") <br>
-          #print("Cuando se ejecute el programa esta linea no sera ejecutada y
-          sera tratada como si no estuviera escrita")</code></p>
-      <p>Si quieres invalidar muchas lineas o escribir un párrafo de comentario
-        se escribe un comentario múltiple así: </p>
-      <code> ''' Esto es un comentario multilínea, <br>
-        sirve para documentar una parte<br>
-        del programa, y se usa comúnmente<br>
-        para documentar una función.''' </code>
-      <p>Puedes ponerlo entre tres comillas simples ''' o dobles """.</p>
-      <hr>
-      <h2>Variables</h2>
-      <p>Una variable sirve para ponerle un nombre a un dato.</p>
-      <p><code>x = 5</code><br></p>
-      <p>Guardamos el dato 5 en la variable x
-      y después se podrán realizar operaciones matematicas con ella
-      </p>   
-      <p><code>
-       >>> x = 5<br>
-       >>> print(x + 7)  #suma<br>
-       12<br>
-       >>> print(x - 2)  #resta<br>
-       3<br>
-       >>> print(4 * x)  #multiplicación<br>
-       20<br>
-       >>> print(9 / x)  #división<br>
-       1.8<br>
-       >>> print(9 // x) #división entera<br>
-       1<br>
-       >>> print(x ** 2) #exponente<br>
-       25<br>
-       >>> x = x + 1     #Aumentamos uno el valor de x<br>
-       >>> print(x)<br>
-       6<br>
-       >>> x += 1        #Es lo mismo que x = x + 1 abreviado. Hace lo mismo<br>
-       >>> print(x)<br>
-       7<br>
-       </code></p>
-       <p>Para saber de que tipo es una variable.</p>
-       <p><code>
-       >>> type(x)       #De que tipo es la variable x?<br>
-       &lt;class 'int'&gt; #De tipo int, abreviatura del ingles integer
-       que en español es entero.<br>
-       >>> k = 3.2<br>
-       >>> type(k)<br>
-       &lt;class 'float'&gt; #De tipo float<br>
-       </code></p>         
-       <p>Tipos de variable</p>
-       <p><code>
-       a = 5 #integer<br>
-       b = 7.35 #float<br>
-       c = "texto escrito" #string<br>
-       d = [1, 2, 3, 4, 5] #list<br>
-       e = {1:"uno", 2:"dos", 3:"test"} #dictionary<br>
-       
-       <p>Reglas de nombres de variables</p>
-       >>> 1var = 78
-         File "<stdin>", line 1
-           1var = 78
-            ^
-       SyntaxError: invalid syntax
-       </code></p>
-       
-      <h1>Esta web esta en construcción.</h1>
-      </section>
-      <footer>
-      <hr>
-      <p> <a href="mailto:solaritocompu@gmail.com">Puede mandarnos un email con
-          preguntas o sugerencias.</a> <br>
+      <h2 id="mostrar_texto_en_el_shell">
+        Mostrar texto en el shell
+      </h2>
+        <p>
+          Si abres Thonny se vera lo que se llama el shell abajo:
+        </p>
+<pre><code>
+Python 3.7.9 (bundled)
+>>>
+</code></pre>
+      <p>
+        Escribe print("Hola mundo") después de &gt;&gt;&gt; y presiona
+        enter. Veras que aparece en el shell Hola mundo o cualquier
+        carácter o numero que introduzcas entre las comillas. La
+        instrucción print significa imprime así que le estamos diciendo a
+        la computadora imprime Hola mundo y ella lo hace. Esta
+        importante instrucción es la primera que se aprende, sirve para
+        mostrar texto y también sirve para mostrar el contenido de
+        variables lo que es muy útil y lo explicare mas adelante en el
+        curso. 
       </p>
+        Ejemplo:
+<pre><code>
+>>> print("Hola mundo")
+Hola mundo
+>>>
+</code></pre>
+      <hr>
+      <h2 id="como_ejecutar_un_archivo_en_thonny">
+        Como ejecutar un archivo en Thonny
+      </h2>
+      <p>
+        En Thonny se escribe el código en el área de texto y se ejecuta
+        preferiblemente con el botón verde con el logo de play, puede
+        ser con la opción del menú correspondiente o presionando f5 si
+        no lo haz guardado saldrá una ventada de guardar archivo ponle
+        el nombre archivo.py y guárdalo. No olvides guardar el archivo
+        antes de ejecutar.
+      </p>
+      <hr>
+      <h2 id="comentarios">
+        Escribir comentarios en el código.
+      </h2>
+      <p>
+        Los comentarios son una forma de explicar como funciona una
+        sección de código, por si necesitas editar tu programa el
+        próximo mes te ayude a recordar como funciona una o varias
+        instrucciones. Los comentarios se escriben así:
+      </p>
+<pre><code>
+#Esto es un comentario y es solo para que alguien lo lea.
+</code></pre>
+      <p>
+        Si escribes algo que no sea una instrucción valida sin # delante
+        y ejecutas, nos dará un error y el programa se detendrá.
+      </p>  
+        <hr>
+      <h2>
+        Para que sirven los comentarios?
+      </h2>
+      <p>
+        Los comentarios sirven para dejar sin efecto una o varias lineas
+        de código y así el interprete python no las ejecute. Si estas
+        indeciso entre una linea u otra puedes comentar una y probar la
+        otra.
+      </p>
+<pre><code>
+#Cuando se ejecute el programa las lineas con # delante no serán 
+#ejecutadas por el interprete Python y las tratara como si no 
+#estuvieran escritas.
+print("Se ejecutara solamente esta linea cuando corra el programa")
+#print("Esta linea sera tratada como si no estuviera escrita")
+</code></pre>
+      <p>
+        Si quieres invalidar muchas lineas de codigo para que el
+        interprete no las ejecute o escribir un párrafo de comentario
+        se escribe un comentario múltiple así:
+      </p>
+<pre><code>
+''' Esto es un comentario multilínea,
+sirve para documentar una parte
+del programa, y se usa comúnmente
+para documentar una función.'''
+</code></pre>
+      <p>
+        Puedes ponerlo entre tres comillas simples ''' o dobles """.
+      </p>
+      <hr>
+      <h2>
+        Ejemplos de uso de comentarios para el área de texto
+      </h2>
+<pre><code>
+import math #importamos el modulo math
+print(math.pow(5, 2)) #Muestra 5 al cuadrado
+
+def suma(num1, num2):
+    '''Esta funcion devuelve la suma de num1 y num2'''
+    return num1 + num2
+</code></pre>
+<hr>
+      <h2 id="variables">
+        Declarar variables
+      </h2>
+      <p>
+        Una variable sirve para ponerle un nombre a un dato.
+      </p>
+<pre><code>
+>>> x = 5
+</code></pre>
+      <p>
+        Guardamos el dato 5 en la variable x y después se podrán
+        realizar operaciones matemáticas como x + 7 con ella. Con esta
+        instrucción la variable x esta definida, declarada e inicializada
+        con el valor 5.
+      </p>
+      <hr>
+      <h2>
+        Práctica de operaciones matemáticas con variables
+      </h2>
+<pre><code>
+>>> x = 5
+>>> print(x + 7) #suma
+12
+>>> print(x - 2) #resta
+3
+>>> print(4 * x) #multiplicación
+20
+>>> print(9 / x) #división
+1.8
+>>> print(9 // x) #división entera
+1
+>>> print(x ** 2) #exponente
+25
+>>> x = x + 1 #Aumentamos uno el valor de x
+>>> print(x)
+6
+>>> x += 1 #Es lo mismo que x = x + 1 abreviado, hace lo mismo.
+>>> print(x)
+7
+</code></pre>
+       <p>
+         La segunda linea da 12 porque x es 5 y 5 + 7 es 12.
+       </p>
+       <hr>
+       <h2>
+         Para saber de que tipo es una variable.
+       </h2>
+<pre><code>
+>>> type(x) #De que tipo es la variable x?
+&lt;class 'int'&gt; #De tipo int, abreviatura del ingles integer
+>>>#integer en español es entero.
+>>> k = 3.2
+>>> type(k)
+&lt;class 'float'&gt; #De tipo float
+</pre></code>
+       <hr>
+       <h2>
+         Tipos de variable y de datos
+       </h2>
+       <p>
+         Si una variable contiene un dato de tipo float es de tipo float.
+       </p>
+<pre><code>
+a = 5 #integer
+b = 7.35 #float
+c = "texto escrito" #string
+d = [1, 2, 3, 4, 5] #list
+e = (7,6 5) #tuple
+f = {1:"uno", 2:"dos", 3:"test"} #dictionary
+g = True #boolean
+</code></pre>
+       <p>
+         Integer son números enteros como 1 o 56 o 735.
+       </p>
+       <p>
+         Float son números con parte decimal, flotante como 356.7 o 10.0
+         o 4.5.
+       </p>
+       <p>
+         String son cadenas de caracteres como "Roca" o "La puerta del
+         garaje" o "asdf%^(1234". Los string o cadenas pueden ser
+         numéricos, alfanuméricos y caracteres especiales. En Python
+         pueden estar entre comillas dobles o simples mas info. en la
+         sección de strings.
+       </p>
+       <p>
+         Las listas son los llamados vectores, arreglos o matrices en
+         otros lenguajes permiten guardar secuencias de datos para
+         iterar sobre ellos. Mas información sobre las listas en la
+         sección de listas y mas sobre la iteración en la sección de
+         bucles.
+       </p>
+       <p>
+         Las tuplas son como las listas pero no se puede modificar su
+         valor una vez definidas y tienen menos métodos que las listas
+         pero se usan siempre que se puede en su lugar de porque son mas
+         optimas que las listas en el uso de los recursos de la
+         computadora.
+       </p>
+       <p>
+         Los diccionarios son llamados HashMap en otros lenguajes.
+         Sirven para guardar valores con una key o clave.
+       </p>
+       <p>
+         Los boolean o booleanos son valores que pueden ser True o False
+         , verdaderos o falsos, muy usados en condicionales.
+       </p>
+       <hr>
+       <h2>
+         Reglas de nombres de variables
+       </h2>
+<pre><code> 
+>>> 2var = 78
+ File "<stdin>", line 1
+   2var = 78
+    ^
+SyntaxError: invalid syntax
+</code></pre>
+       <p>
+         El nombre de una variable no puede iniciar con un numero ni con
+         caracteres especiales excepto el underscore _ pero puede
+         iniciar con cualquier letra del alfabeto inglés mayúscula o
+         minúscula. Por convención en Python las variables se inician
+         con minúscula, y si el nombre tiene dos palabras o mas se
+         separan con underscore como en el caso de la variable
+         nombre_usuario. También nombres de variable tipo camelcase como
+         numeroDeCaracteres mas usado en lenguajes tipo C es valido,
+         pero esta desaconsejado.
+       </p>
+<pre><code>
+nombre_usuario = "Fulano de tal"
+numeroDeCaracteres = 400
+</code></pre>
+       <p>
+        Si intentas usar una variable que no existe porque no la haz
+        creado da error, como en el caso de:
+       </p>
+<pre><code>
+>>> print(no_existe)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'no_existe' is not defined
+</code></pre>
+       <p>
+         Así la puedes usar:
+       </p>
+<pre><code>
+>>> no_existe = False
+>>> print(no_existe)
+False
+</code></pre>
+       <p>
+         Cree la variable no_existe, al crearla es definida y guarde el
+         dato booleano False en ella, después la imprimí con la función
+         print y mostró el dato.
+       </p>
+<pre><code>
+>>> for = 7
+  File "<stdin>", line 1
+    for = 7
+        ^
+SyntaxError: invalid syntax
+</pre></code>
+       <p>
+         No se puede usar palabras reservadas del lenguaje como nombre
+         de variables.
+       </p>
+<pre><code>
+>>> print = 5
+>>> print(print)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>> del(print)
+>>> print("hola")
+hola
+</code></pre>
+       <p>
+         Se le puede asignar un valor a print pero a partir de esa
+         asignación print deja de funcionar hasta que print sea borrado
+         con del así que mejor no lo haré con tantos nombres de
+         variables posibles, no hay escasez de nombres de variables.
+       </p>
+       <hr>
+       <h1>Trabajar en secciones:</h1>
+       <h2>Condicionales</h2>
+       <h2>Strings</h2>
+       <h2>Listas</h2>
+       <h2>Tuplas</h2>
+       <h2>Bucles</h2>
+       <h2>Funciones</h2>
+       <h2>Diccionarios</h2>
+       <h2>Algoritmos</h2>
+       <h2>Programación estructurada</h2>
+       <h2>Programación Orientada a Objetos</h2>
+       <h2>Clases</h2>
+       <h2>Módulos</h2>
+       <h2>y las que se me ocurran</h2>
+      <h1>
+        Esta web esta en construcción.
+      </h1>
+    </section>
+    <footer>
+      <hr>
+      <address>
+        <a href="mailto:solaritocompu@gmail.com">
+          Puede mandarme un email con preguntas o sugerencias.
+        </a>
+      </address>
       <br>
-      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"
-          style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>
-      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
-        Commons Attribution 4.0 International License</a>.
-        </footer>
+      <a rel="license"
+      href="http://creativecommons.org/licenses/by/4.0/">
+        <img alt="Creative Commons License" style="border-width:0"
+        src="https://i.creativecommons.org/l/by/4.0/88x31.png">
+      </a>
+      <br>
+      This work is licensed under a
+      <a rel="license"
+      href="http://creativecommons.org/licenses/by/4.0/">
+        Creative Commons Attribution 4.0 International License
+      </a>.
+    </footer>
   </body>
 </html>

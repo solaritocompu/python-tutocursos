@@ -39,6 +39,9 @@
       <a href="#variables">
         Variables
       </a> |
+      <a href="#condicionales">
+        Condicionales
+      </a> |
     </nav>
     <section>
       <hr>
@@ -191,8 +194,9 @@ def suma(num1, num2):
 >>> x = 5
 </code></pre>
       <p>
-        Guardamos el dato 5 en la variable x y después se podrán
-        realizar operaciones matemáticas como x + 7 con ella. Con esta
+        Guardamos el dato 5 en la variable x con el operador de
+        asignación que es un signo de igual y después se podrán realizar
+        operaciones matemáticas como x + 7 con ella. Con esta
         instrucción la variable x esta definida, declarada e inicializada
         con el valor 5.
       </p>
@@ -365,6 +369,106 @@ hola
          variables posibles, no hay escasez de nombres de variables.
        </p>
        <hr>
+       <h2 id="condicionales">Expresiones booleanas</h2>
+       <p>
+         Una expresión booleana es una expresión que se evalúa y
+         devuelve como resultado True o False, Verdadero o Falso. Se
+         usan en condicionales y se crean mediante el uso de operadores
+         de comparación que son:
+       </p>
+<pre style="background-color: rgb(255, 255, 255);
+            border: 0px;
+            padding-left: 0px;">         
+== igual que
+=! no es igual que
+> mayor que
+< menor que
+<= menor o igual que
+>= mayor o igual que
+</pre>
+       <hr>
+       <h2>Operador igual que</h2>
+       <p>
+         Con un operador de igual que si que lo que esta a ambos lados
+         del operador es igual devuelve True en caso contrario devuelve
+         False. Fíjese que el operador de igualdad se escribe con dos
+         signos de igual y el operador de asignación con uno solo.
+       </p>
+<pre><code>
+>>> h = 10
+>>> h == h
+True
+>>> h == 3
+False
+</code></pre>
+       <p>
+         En la primera linea asignamos 10 a h por eso h es 10. En la
+         segunda linea se evalúa si h es igual a h lo que devuelve True
+         en la tercera porque es verdadero que 10 es igual a 10. En la
+         cuarta linea se evalúa si h es igual a 3 lo que devuelve False
+         porque 10 no es igual a 3.
+       </p>
+       <hr>
+       <h2>Operador no es igual que</h2>
+       <p>
+         Con un operador de no es igual que si que lo que esta a ambos
+         lados del operador es igual devuelve False en caso contrario 
+         devuelve True.</p>
+<pre><code>
+>>> h = 10
+>>> h != h
+False
+>>> h != 3
+True
+</code></pre>
+       <p>
+         En la segunda linea se evalúa si h no es igual a h lo que
+         devuelve False en la tercera porque es falso que 10 no es igual
+         a 10. En la cuarta linea se evalúa si h no es igual a 3 lo que
+         devuelve True porque 10 no es igual a 3.
+        </p>
+        <hr>
+       <h2>Ejemplos de condicionales</h2>
+<pre><code>
+gravedad = 0
+if gravedad == 0:
+    print("Cuidado que te elevas!")
+</code></pre>
+       <p>
+         La sentencia if se usa para cambiar el flujo de ejecución si una
+         condición es True o False, Verdadera o Falsa si la condición es
+         verdadera se ejecutan las instrucciones indentadas después del
+         if, si la condición es falsa saltara las instrucciones
+         indentadas y seguirá ejecutando las que siguen.
+       </p>
+<pre><code>
+velocidad = 5000
+if velocidad == 5000:
+    print("Este print y los próximos 2 se ejecutan si la ", end='') 
+    print("condición es verdadera.",)
+    print("Vas muy rápido")
+print("Como estas instrucciones están fuera del if ", end = '')
+print("se ejecutan si la condición es verdadera y si es falsa.")
+</code></pre>
+       <p>
+        Los 3 print indentados después del if se conocen como un bloque.
+        Si quieres probar las instrucciones del if cuando estas
+        haciendo un programa ponle True en el área de la condición y
+        se ejecutaran siempre que corras el programa. Si quieres
+        saltarte el if y que nunca se ejecuten mientras estas haciendo
+        pruebas ponle False. También se puede poner 1 en lugar de True y
+        0 en lugar de False.
+       </p>
+<pre><code>
+if True:
+    print("Esta linea siempre se ejecutara.")
+    
+if False:
+    print("Esta linea nunca se ejecutara.")
+</code></pre>       
+       <p>
+         
+       </p>
        <h1>Trabajar en secciones:</h1>
        <h2>Condicionales</h2>
        <h2>Strings</h2>

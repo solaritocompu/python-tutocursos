@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Curso de "Python">
-    <meta name="keywords"
-    content="Python, Tutorial, Curso, Programar, Programación, Aprende">
-    <title>Curso python de Solaritocompu.</title>
-    <link
-    href="https://solaritocompu.github.io/python-tutocursos/main.css"
-    rel="stylesheet"></head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Curso de "Python">
+  <meta name="keywords"
+  content="Python, Tutorial, Curso, Programar, Programación, Aprende">
+  <title>Curso python de Solaritocompu.</title>
+  <link
+  href="https://solaritocompu.github.io/python-tutocursos/main.css"
+  rel="stylesheet"></head>
   <body>
     <header>
       <div class="heade">
-        <img class="imagen-centralizada"
+      <img class="imagen-centralizada"
 src="https://solaritocompu.github.io/python-tutocursos/logo-python.webp"
-alt="logo" title="logo de python">
-        <h1>Curso Python de Solaritocompu.</h1></div></header>
+      alt="logo" title="logo de python">
+      <h1>Curso Python de Solaritocompu.</h1></div></header>
     <nav>
-      <a href="https://solaritocompu.github.io/index.html">
+      <a
+    href="https://solaritocompu.github.io/python-tutocursos/index.html">
         Principal</a> |
       <a href="#requisitos_para_el_curso">Requisitos para el curso</a> |
       <a href="#mostrar_texto_en_el_shell">
@@ -26,36 +27,38 @@ alt="logo" title="logo de python">
         Como ejecutar un archivo en Thonny</a> |
       <a href="#comentarios">Comentarios</a> |
       <a href="#variables">Variables</a> |
+      <a href="#operadores">Operadores</a> |
       <a href="#condicionales">Condicionales</a> |</nav>
     <section>
       <hr>
       <h2>Como navegar por el sitio?</h2>
-      <p>En computadora haz click con el mouse en los enlaces de la barra
+      <p>
+        En computadora haz click con el mouse en los enlaces de la barra
         de navegación arriba para leer la sección que elijas y para
         volver arriba presiona la tecla home. En celular y tableta
         arrastra el dedo.</p>
       <hr>
       <h2 id="requisitos_para_el_curso">Requisitos para el curso</h2>
       <ol>
-        <li>Tener una computadora y saber usarla también puede ser un
-          celular o una tableta.</li>
-        <li>Saber usar un editor de texto. No te quejes! Bendito...
-          Quieres programar y no sabes como guardar un archivo de texto.
-          Mejor busca en Internet como hacerlo o coge un curso de
-          computadora antes de seguir este curso. Hay que gatear antes
-          que caminar y caminar antes que correr.</li>
-        <li>Instalar el Thonny porque incluye el editor y python en un
-          solo instalador. Viene listo para escribir archivos de código
-          sin tener que configurarlo y tiene un área para ejecutar
-          instrucciones en el shell.
-          <a href="https://thonny.org/">
-            Web de Thonny para descargarlo e instalarlo</a></li>
-        <li>Ejecutar los comandos del curso en el shell si tienen >>>
-          delante y de lo contrario en el área de texto con el
-          botón.</li></ol>
+      <li>Tener una computadora y saber usarla también puede ser un
+        celular o una tableta.</li>
+      <li>Saber usar un editor de texto. No te quejes! Bendito...
+        Quieres programar y no sabes como guardar un archivo de texto.
+        Mejor busca en Internet como hacerlo o coge un curso de
+        computadora antes de seguir este curso. Hay que gatear antes
+        que caminar y caminar antes que correr.</li>
+      <li>Instalar el Thonny porque incluye el editor y python en un
+        solo instalador. Viene listo para escribir archivos de código
+        sin tener que configurarlo y tiene un área para ejecutar
+        instrucciones en el shell.
+        <a href="https://thonny.org/">
+          Web de Thonny para descargarlo e instalarlo</a></li>
+      <li>Ejecutar los comandos del curso en el shell si tienen >>>
+        delante y de lo contrario en el área de texto con el
+        botón.</li></ol>
       <hr>
       <h2 id="mostrar_texto_en_el_shell">Mostrar texto en el shell</h2>
-        <p>Si abres Thonny se vera lo que se llama el shell abajo:</p>
+      <p>Si abres Thonny se vera lo que se llama el shell abajo:</p>
 <pre><code>
 Python 3.7.9 (bundled)
 >>></code></pre>
@@ -68,14 +71,14 @@ Python 3.7.9 (bundled)
         mostrar texto y también sirve para mostrar el contenido de
         variables lo que es muy útil y lo explicare mas adelante en el
         curso.</p>
-        Ejemplo:
+      Ejemplo:
 <pre><code>
 >>> print("Hola mundo")
 Hola mundo
 >>></code></pre>
       <hr>
       <h2 id="como_ejecutar_un_archivo_en_thonny">Como ejecutar un
-      archivo en Thonny</h2>
+        archivo en Thonny</h2>
       <p>En Thonny se escribe el código en el área de texto y se ejecuta
         preferiblemente con el botón verde con el logo de play, puede
         ser con la opción del menú correspondiente o presionando f5 si
@@ -91,11 +94,12 @@ Hola mundo
 <pre><code>
 #Esto es un comentario y es solo para que alguien lo lea.</code></pre>
       <p>Si escribes algo que no sea una instrucción valida sin #
-       delante y ejecutas, nos dará un error y el programa se
-       detendrá.</p>  
+        delante y ejecutas, nos dará un error y el programa se
+        detendrá.</p>  
       <hr>
       <h2>Para que sirven los comentarios?</h2>
-      <p>Los comentarios sirven para dejar sin efecto una o varias lineas
+      <p>
+        Los comentarios sirven para dejar sin efecto una o varias lineas
         de código y así el interprete python no las ejecute. Si estas
         indeciso entre una linea u otra puedes comentar una y probar la
         otra.</p>
@@ -105,8 +109,8 @@ Hola mundo
 #estuvieran escritas.
 print("Se ejecutara solamente esta linea cuando corra el programa")
 #print("Esta linea sera tratada como si no estuviera escrita")</code>
-</pre>
-      <p>Si quieres invalidar muchas lineas de codigo para que el
+      </pre>
+      <p>Si quieres invalidar muchas lineas de código para que el
         interprete no las ejecute o escribir un párrafo de comentario
         se escribe un comentario múltiple así:</p>
 <pre><code>
@@ -125,7 +129,7 @@ print(math.pow(5, 2)) #Muestra 5 al cuadrado
 def suma(num1, num2):
     '''Esta funcion devuelve la suma de num1 y num2'''
     return num1 + num2</code></pre>
-<hr>
+      <hr>
       <h2 id="variables">Declarar variables</h2>
       <p>Una variable sirve para ponerle un nombre a un dato.</p>
 <pre><code>
@@ -157,9 +161,9 @@ def suma(num1, num2):
 >>> x += 1 #Es lo mismo que x = x + 1 abreviado, hace lo mismo.
 >>> print(x)
 7</code></pre>
-       <p>La segunda linea da 12 porque x es 5 y 5 + 7 es 12.</p>
-       <hr>
-       <h2>Para saber de que tipo es una variable.</h2>
+      <p>La segunda linea da 12 porque x es 5 y 5 + 7 es 12.</p>
+      <hr>
+      <h2>Para saber de que tipo es una variable.</h2>
 <pre><code>
 >>> type(x) #De que tipo es la variable x?
 &lt;class 'int'&gt; #De tipo int, abreviatura del ingles integer
@@ -167,10 +171,10 @@ def suma(num1, num2):
 >>> k = 3.2
 >>> type(k)
 &lt;class 'float'&gt; #De tipo float</pre></code>
-       <hr>
-       <h2>Tipos de variable y de datos</h2>
-       <p>Si una variable contiene un dato de tipo float es de tipo
-         float.</p>
+      <hr>
+      <h2>Tipos de variable y de datos</h2>
+      <p>Si una variable contiene un dato de tipo float es de tipo
+       float.</p>
 <pre><code>
 a = 5 #integer
 b = 7.35 #float
@@ -179,155 +183,303 @@ d = [1, 2, 3, 4, 5] #list
 e = (7,6 5) #tuple
 f = {1:"uno", 2:"dos", 3:"test"} #dictionary
 g = True #boolean</code></pre>
-       <p>Integer son números enteros como 1 o 56 o 735.</p>
-       <p>Float son números con parte decimal, flotante como 356.7 o 10.0
-         o 4.5.</p>
-       <p>String son cadenas de caracteres como "Roca" o "La puerta del
-         garaje" o "asdf%^(1234". Los string o cadenas pueden ser
-         numéricos, alfanuméricos y caracteres especiales. En Python
-         pueden estar entre comillas dobles o simples mas info. en la
-         sección de strings.</p>
-       <p>Las listas son los llamados vectores, arreglos o matrices en
-         otros lenguajes permiten guardar secuencias de datos para
-         iterar sobre ellos. Mas información sobre las listas en la
-         sección de listas y mas sobre la iteración en la sección de
-         bucles.</p>
-       <p>Las tuplas son como las listas pero no se puede modificar su
-         valor una vez definidas y tienen menos métodos que las listas
-         pero se usan siempre que se puede en su lugar de porque son mas
-         optimas que las listas en el uso de los recursos de la
-         computadora.</p>
-       <p>Los diccionarios son llamados HashMap en otros lenguajes.
-         Sirven para guardar valores con una key o clave.</p>
-       <p>Los boolean o booleanos son valores que pueden ser True o False
-         , verdaderos o falsos, muy usados en condicionales.</p>
-       <hr>
-       <h2>Reglas de nombres de variables</h2>
+      <p>Integer son números enteros como 1 o 56 o 735.</p>
+      <p>Float son números con parte decimal, flotante como 356.7 o 10.0
+       o 4.5.</p>
+      <p>String son cadenas de caracteres como "Roca" o "La puerta del
+        garaje" o "asdf%^(1234". Los string o cadenas pueden ser
+        numéricos, alfanuméricos y caracteres especiales. En Python
+        pueden estar entre comillas dobles o simples mas info. en la
+        sección de strings.</p>
+      <p>Las listas son los llamados vectores, arreglos o matrices en
+        otros lenguajes permiten guardar secuencias de datos para
+        iterar sobre ellos. Mas información sobre las listas en la
+        sección de listas y mas sobre la iteración en la sección de
+        bucles.</p>
+      <p>Las tuplas son como las listas pero no se puede modificar su
+        valor una vez definidas y tienen menos métodos que las listas
+        pero se usan siempre que se puede en su lugar de porque son mas
+        optimas que las listas en el uso de los recursos de la
+        computadora.</p>
+      <p>Los diccionarios son llamados HashMap en otros lenguajes.
+        Sirven para guardar valores con una key o clave.</p>
+      <p>Los boolean o booleanos son valores que pueden ser True o False
+        , verdaderos o falsos, muy usados en condicionales.</p>
+      <hr>
+      <h2>Reglas de nombres de variables</h2>
 <pre><code> 
 >>> 2var = 78
- File "<stdin>", line 1
-   2var = 78
-    ^
+File "<stdin>", line 1
+2var = 78
+^
 SyntaxError: invalid syntax</code></pre>
-       <p>El nombre de una variable no puede iniciar con un numero ni con
-         caracteres especiales excepto el underscore _ pero puede
-         iniciar con cualquier letra del alfabeto inglés mayúscula o
-         minúscula. Por convención en Python las variables se inician
-         con minúscula, y si el nombre tiene dos palabras o mas se
-         separan con underscore como en el caso de la variable
-         nombre_usuario. También nombres de variable tipo camelcase como
-         numeroDeCaracteres mas usado en lenguajes tipo C es valido,
-         pero esta desaconsejado.</p>
+      <p>El nombre de una variable no puede iniciar con un numero ni con
+        caracteres especiales excepto el underscore _ pero puede
+        iniciar con cualquier letra del alfabeto inglés mayúscula o
+        minúscula. Por convención en Python las variables se inician
+        con minúscula, y si el nombre tiene dos palabras o mas se
+        separan con underscore como en el caso de la variable
+        nombre_usuario. También nombres de variable tipo camelcase como
+        numeroDeCaracteres mas usado en lenguajes tipo C es valido,
+        pero esta desaconsejado.</p>
 <pre><code>
 nombre_usuario = "Fulano de tal"
 numeroDeCaracteres = 400</code></pre>
-       <p>Si intentas usar una variable que no existe porque no la haz
+      <p>Si intentas usar una variable que no existe porque no la haz
         creado da error, como en el caso de:</p>
 <pre><code>
 >>> print(no_existe)
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+File "<stdin>", line 1, in <module>
 NameError: name 'no_existe' is not defined</code></pre>
-       <p>Así la puedes usar:</p>
+      <p>Así la puedes usar:</p>
 <pre><code>
 >>> no_existe = False
 >>> print(no_existe)
 False</code></pre>
-       <p>Cree la variable no_existe, al crearla es definida y guarde el
-         dato booleano False en ella, después la imprimí con la función
-         print y mostró el dato.</p>
-<pre><code>
+      <p>Cree la variable no_existe, al crearla es definida y guarde el
+        dato booleano False en ella, después la imprimí con la función
+        print y mostró el dato.</p>
+      <pre><code>
 >>> for = 7
-  File "<stdin>", line 1
-    for = 7
-        ^
+File "<stdin>", line 1
+for = 7
+^
 SyntaxError: invalid syntax</pre></code>
-       <p>No se puede usar palabras reservadas del lenguaje como nombre
-         de variables.</p>
+      <p>No se puede usar palabras reservadas del lenguaje como nombre
+        de variables.</p>
 <pre><code>
 >>> print = 5
 >>> print(print)
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+File "<stdin>", line 1, in <module>
 TypeError: 'int' object is not callable
 >>> del(print)
 >>> print("hola")
 hola</code></pre>
-       <p>Se le puede asignar un valor a print pero a partir de esa
-         asignación print deja de funcionar hasta que print sea borrado
-         con del así que mejor no lo haré con tantos nombres de
-         variables posibles, no hay escasez de nombres de variables.</p>
-       <hr>
-       <h2 id="condicionales">Expresiones booleanas</h2>
-       <p>Una expresión booleana es una expresión que se evalúa y
-         devuelve como resultado True o False, Verdadero o Falso. Se
-         usan en condicionales, y se crean mediante el uso de operadores
-         de comparación, conocidos como operadores relacionales, que
-         son:</p>
+      <p>Se le puede asignar un valor a print pero a partir de esa
+        asignación print deja de funcionar hasta que print sea borrado
+        con del así que mejor no lo haré con tantos nombres de
+        variables posibles, no hay escasez de nombres de variables.</p>
+      <hr>
+      <h2 id="operadores">Operadores matemáticos</h2>
 <pre style="background-color: rgb(255, 255, 255);
-            border: 0px;
-            padding-left: 0px;">         
+    border: 0px;
+    padding-left: 0px;">
++ suma
+- resta
+* multiplicación
+/ división
+// división entera
+% residuo</pre>
+      <p>Con los operadores matemáticos se puede usar Python como una
+        calculadora.</p>
+<pre><code>
+>>> print(5 + 5)
+10</code></pre>
+      <hr>
+      <h2>Expresiones booleanas</h2>
+      <p>Una expresión booleana es una expresión que se evalúa y
+        devuelve como resultado un valor booleano, que es un valor que
+        es o True o False, o Verdadero o Falso. Nótese que en Python los
+        valores booleanos empiezan con mayúscula. Las expresiones
+        booleanas se usan en condicionales, y se crean mediante el uso
+        de operadores de comparación, conocidos como operadores
+        relacionales, que son:</p>
+<pre style="background-color: rgb(255, 255, 255);
+    border: 0px;
+    padding-left: 0px;">
 == igual que
 =! no es igual que
 > mayor que
 < menor que
-<= menor o igual que
->= mayor o igual que</pre>
-       <hr>
-       <h2>Operador igual que</h2>
-       <p>Con un operador de igual que, si lo que esta a ambos lados
-         del operador es igual devuelve True, en caso contrario devuelve
-         False. Fíjese que el operador de igualdad se escribe con dos
-         signos de igual, y el operador de asignación con uno solo.</p>
+>= mayor o igual que
+<= menor o igual que</pre>
+      <hr>
+      <h2>Operador igual que</h2>
+      <p>Con un operador de igual que, si lo que esta a ambos lados
+        del operador es igual devuelve True, en caso contrario devuelve
+        False. Fíjese que el operador de igualdad se escribe con dos
+        signos de igual, y el operador de asignación con uno solo.</p>
 <pre><code>
 >>> h = 10
 >>> h == h
 True
 >>> h == 3
 False</code></pre>
-       <p>En la primera linea asignamos 10 a h por eso h es 10. En la
-         segunda linea se evalúa si h es igual a h lo que devuelve True
-         en la tercera porque es verdadero que 10 es igual a 10. En la
-         cuarta linea se evalúa si h es igual a 3 lo que devuelve False
-         porque 10 no es igual a 3.</p>
-       <hr>
-       <h2>Operador no es igual que</h2>
-       <p>Con un operador de no es igual, si lo que esta a ambos
-         lados del operador es igual devuelve False, en caso contrario 
-         devuelve True.</p>
+      <p>En la primera linea asignamos 10 a h por eso h es 10. En la
+        segunda linea se evalúa si h es igual a h lo que devuelve True
+        en la tercera porque es verdadero que 10 es igual a 10. En la
+        cuarta linea se evalúa si h es igual a 3 lo que devuelve False
+        porque 10 no es igual a 3.</p>
+      <hr>
+      <h2>Operador no es igual que</h2>
+      <p>Con un operador de no es igual, si lo que esta a ambos
+        lados del operador es igual devuelve False, en caso contrario 
+        devuelve True.</p>
 <pre><code>
 >>> h = 10
 >>> h != h
 False
 >>> h != 3
 True</code></pre>
-       <p>En la segunda linea se evalúa si h no es igual a h lo que
-         devuelve False en la tercera porque es falso que 10 no es igual
-         a 10. En la cuarta linea se evalúa si h no es igual a 3 lo que
-         devuelve True porque 10 no es igual a 3.</p>
-        <hr>
-        <h2>Operador mayor que</h2>
-        
-        
-        <h1>Continuar editando aquí!</h1>
-        
-        
-        <p>Con un operador de mayor que si lo que esta a la izquierda es
-        mayor que lo que esta a la derecha devuelve True y si lo que
-        esta a la izquierda es menor que lo que esta a la derecha
-        devuelve False y si lo que esta a la izquierda es igual que lo
-        que esta a la derecha tambien devuelve False.</p>
-        <hr>
-       <h2>Ejemplos de condicionales</h2>
+      <p>En la segunda linea se evalúa si h no es igual a h lo que
+        devuelve False en la tercera porque es falso que 10 no es igual
+        a 10. En la cuarta linea se evalúa si h no es igual a 3 lo que
+        devuelve True porque 10 no es igual a 3.</p>
+      <hr>
+      <h2>Operador mayor que</h2>
+      <p>Con un operador de mayor que si lo que esta a la izquierda del
+        operador es mayor que lo que esta a la derecha devuelve True, en
+        caso contrario devuelve False, y si lo que esta a la izquierda
+        es igual que lo que esta a la derecha devuelve False.</p>
+<pre><code>
+>>> num1 = 2
+>>> num2 = 9
+>>> num1 > num2
+False
+>>> num1 > 1
+True</code></pre>
+      <p>En la tercera linea evalúa si num1 es mayor que num2 lo que
+        devuelve False porque 2 no es mayor que 9. En la quinta linea
+        evalúa si num1 es mayor que 1 lo que devuelve True porque 2 es
+        mayor que 1.</p>
+      <hr>
+      <h2>Operador menor que</h2>
+      <p>Con un operador de menor que si lo que esta a la izquierda del
+        operador es menor que lo que esta a la derecha devuelve True, en
+        caso contrario devuelve False, y si lo que esta a la izquierda es
+        igual que lo que esta a la derecha devuelve False.</p>
+<pre><code>
+>>> num1 = 2
+>>> num2 = 9
+>>> num1 < num2
+True
+>>> num1 < 1
+False</code></pre>
+      <p>En la tercera linea de evalúa si num1 es menor que num2 lo que
+      devuelve True porque 2 es menor que 9. En la quinta linea
+      evalúa si num1 es menor que 1 lo que devuelve False porque 2 no es
+      menor que 1.</p>
+      <hr>
+      <h2>Operador mayor o igual que</h2>
+      <p>Con un operador de mayor o igual que si lo que esta a la
+      izquierda del operador es mayor o igual que lo que esta a la
+      derecha devuelve True, y solo si lo que esta a la izquierda del
+      operador es menor que lo que esta a la derecha devuelve False.</p>
+<pre><code>
+>>> 600 >= 500
+True
+>>> 500 >= 500
+True
+>>> 400 >= 500
+False</code></pre>
+      <p>En la primera linea se evalúa si 600 es mayor o igual que 500
+      lo que devuelve True porque 600 es mayor que 500. En la tercera
+      linea se evalúa si 500 es mayor o igual que 500 lo que devuelve
+      True porque 500 es igual que 500. En la quinta linea se evalúa si
+      400 es mayor o igual que 500 lo que devuelve False porque 400 no
+      es mayor ni igual que 500.</p>
+      <hr>
+      <h2>Operador menor o igual que</h2>
+      <p>Con un operador de menor o igual que si lo que esta a la
+      izquierda del operador es menor o igual que lo que esta a la
+      derecha devuelve True, y solo si lo que esta a la izquierda del
+      operador es mayor que lo que esta a la derecha devuelve False.</p>
+<pre><code>
+>>> 600 <= 500
+False
+>>> 500 <= 500
+True
+>>> 400 <= 500
+True</code></pre>
+      <p>En la primera linea se evalúa si 600 es menor o igual que 500
+        lo que devuelve False porque 600 no es menor ni igual que 500.
+        En la tercera linea se evalúa si 500 es menor o igual que 500 lo
+        que devuelve True porque 500 es igual que 500. En la quinta
+        linea se evalúa si 400 es menor o igual que 500 lo que devuelve
+        True porque 400 es menor 500.</p>
+      <hr>
+      <h2>Operadores lógicos</h2>
+      <p>Operadores que nos permite modificar expresiones booleanas
+      uniéndolas o negándolas para que al ser evaluadas den un como
+      resultado un valor booleano se conocen como operadores
+      lógicos, y son:</p>
+<pre style="background-color: rgb(255, 255, 255);
+    border: 0px;
+    padding-left: 0px;">
+and
+or
+not</pre>
+      <hr>
+      <h2>Operador and</h2>
+      <p>Con un operador de and si lo que esta a ambos lados del
+      operador es True devuelve True, si lo que esta en un lado o ambos
+      lados es False devuelve False</p>
+<pre><code>
+>>> True and 1 == 1
+True
+>>> 5 != 5 and 4 >= 4
+False
+>>> "a" != "a" and False
+False</code></pre>
+      <p>En la primera linea la evaluación de True devuelve True al lado
+        izquierdo del operador y la evaluación de 1 == 1 devuelve true
+        al lado derecho del operador por lo tanto como lo que esta a ambos
+        lados del operador and es True la evaluación del and devuelve
+        True en la segunda linea. En la tercera linea la evaluación de
+        5 != 5 devuelve False al lado izquierdo y la evaluación de 4 >= 4
+        devuelve True en el lado derecho por lo tanto como lo que esta en
+        un lado del operador and es False la evaluación del and devuelve
+        False en la cuarta linea. En la quinta linea como lo que esta a ambos lados del and
+        es falso devuelve False.</p>
+      <hr>
+      <h2>Operador or</h2>
+      <p>Con el operador or si lo que esta a un lado del operador o a
+        ambos lados es True devuelve True, solamente devuelve False si
+        lo que esta a ambos lados del operador es False.</p>
+<pre><code>
+>>> False or True
+True
+>>> 7 > 4 or 1 < 9
+True
+>>> 45 > 200 or 34 != 34
+False</code></pre>
+      <p>En la primera linea la evaluación de or devuelve True porque lo
+      que esta a un lado del or es True. En la tercera linea también
+      devuelve True porque lo que esta a ambos lados del or es True.
+      En la quinta linea devuelve False porque lo que esta a ambos lados
+      del or es False.</p>
+      <hr>
+      <h2>Operador not</h2>
+        <p>Con un operador not se hace que la evaluación que devuelve 
+          True devuelva False y la que devuelve False devuelva True
+          negando la expresión. Otra forma mas simple de decirlo es not
+          convierte True en False y False en
+          True.</p>
+<pre><code>
+>>> not True
+False
+>>> not False
+True</code></pre>
+      <p>En el ejemplo anterior not convirtió True en False en la
+      primera linea y False en True en la tercera.</p>
+      <hr>
+      <h2 id="condicionales">La sentencia if</h2>
+      <p>Los condicionales se crean con la sentencia if, que se usa para
+        determinar el flujo de ejecución del programa, basándose en el
+        resultado de la evaluación de una expresión booleana, que puede
+        dar como resultado True o False, Verdadero o Falso. Si la
+        expresión booleana es verdadera, se ejecutan las instrucciones
+        indentadas después del if, si la condición es falsa saltara las
+        instrucciones indentadas y seguirá ejecutando las que
+        siguen.</p>
 <pre><code>
 gravedad = 0
-if gravedad == 0:
+if gravedad < 0:
     print("Cuidado que te elevas!")</code></pre>
-       <p>La sentencia if se usa para cambiar el flujo de ejecución si una
-         condición es True o False, Verdadera o Falsa si la condición es
-         verdadera se ejecutan las instrucciones indentadas después del
-         if, si la condición es falsa saltara las instrucciones
-         indentadas y seguirá ejecutando las que siguen.</p>
+      <p>La indentación o sangrado determina si las lineas de código
+        están dentro de un bloque.</p>
 <pre><code>
 velocidad = 5000
 if velocidad == 5000:
@@ -337,48 +489,142 @@ if velocidad == 5000:
 print("Como estas instrucciones están fuera del if ", end = '')
 print("se ejecutan si la condición es verdadera y si es falsa.")</code>
 </pre>
-       <p>Los 3 print indentados después del if se conocen como un bloque.
+      <p>
+        Los 3 print indentados después del if se conocen como un bloque.
         Si quieres probar las instrucciones del if cuando estas
         haciendo un programa ponle True en el área de la condición y
-        se ejecutaran siempre que corras el programa. Si quieres
-        saltarte el if y que nunca se ejecuten mientras estas haciendo
-        pruebas ponle False. También se puede poner 1 en lugar de True y
-        0 en lugar de False.</p>
+        se ejecutaran siempre que corras el programa.</p>
 <pre><code>
 if True:
     print("Esta linea siempre se ejecutara.")
-    
+
 if False:
     print("Esta linea nunca se ejecutara.")</code></pre>
-       <h1>Trabajar en secciones:</h1>
-       <h2>Condicionales</h2>
-       <h2>Strings</h2>
-       <h2>Listas</h2>
-       <h2>Tuplas</h2>
-       <h2>Bucles</h2>
-       <h2>Funciones</h2>
-       <h2>Diccionarios</h2>
-       <h2>Algoritmos</h2>
-       <h2>Programación estructurada</h2>
-       <h2>Programación Orientada a Objetos</h2>
-       <h2>Clases</h2>
-       <h2>Módulos</h2>
-       <h2>y las que se me ocurran</h2>
-       <h1>Esta web esta en construcción.</h1></section>
-    <footer>
+      <p>Si quieres saltarte el if y que nunca se ejecuten sus
+      instrucciones mientras estas haciendo pruebas ponle False. </p>
+<pre><code>
+if 1:
+    print("Esta linea siempre se ejecutara.")
+
+if 0:
+    print("Esta linea nunca se ejecutara.")
+</code></pre>
+      <p>También
+        se puede poner 1 en lugar de True y 0 en lugar de False.</p>
       <hr>
-      <address>
-        <a href="mailto:solaritocompu@gmail.com">
+      <h2>La sentencia else</h2>
+      <p>Si la condición del if, su expresión booleana es falsa se
+        ejecutaran las instrucciones indentadas después del else.</p>
+<pre><code>
+edad = 16
+if edad > 18:
+    print("Es mayor de edad")
+else:
+    print("Es menor de edad")</code></pre>
+      <p>Si ejecutas el programa imprime es menor de edad porque la
+      condición del if es falsa</p>
+      <hr>
+      <h2>La sentencia elif</h2>
+      <p>Si la condición del if es True se ejecuta el bloque del if y
+      se salta el elif y el else pero si la condición del if es False
+      se evalúa la condición del elif y si resulta ser verdadera se
+      ejecuta el bloque del elif saltándose el bloque del else y si la
+      condición del elif también es falsa ejecuta las instrucciones del
+      bloque del else. Ejemplificado abajo para que se entienda.</p>
+<pre><code>
+altura = 6
+if altura >= 6:
+    print("alto")
+elif altura == 5:
+    print("mediano")
+else:
+    print("chiquito")</code></pre>
+      <p>Como la altura es 6 la condición del if es True y se muestra
+      alto. Fíjese como se salto las instrucciones del elif y del else
+      al no ejecutarlas.</p>
+<pre><code>
+altura = 5
+if altura >= 6:
+    print("alto")
+elif altura == 5:
+    print("mediano")
+else:
+    print("chiquito")</code></pre>
+      <p>Aquí la altura es 5 la expresión del if devuelve False por lo
+        tanto su bloque no se ejecuta y evalúa la expresión del elif que
+        resulta ser True por lo que se ejecuta su bloque mostrando
+        mediano y se salta el bloque del else. Fíjese como se salto las
+        instrucciones del if y del else al no ejecutarlas.</p>
+<pre><code>
+altura = 4
+if altura >= 6:
+    print("alto")
+elif altura == 5:
+    print("mediano")
+else:
+    print("chiquito")</code></pre>
+      <p>Con una altura de 4 la condición del if es False por lo que no
+        se ejecuta su bloque la del elif también es False por lo que
+        tampoco su bloque se ejecuta y en como todas las condiciones
+        anteriores son False se ejecuta el bloque del else.</p>
+<pre><code>
+dia = input("Escribe que día es hoy: ")
+if dia == "domingo":
+    print("Es domingo")
+    print("Es fin de semana!")
+elif dia == "lunes":
+    print("Es lunes")
+    print("Es día de semana.")
+elif dia == "martes":
+    print("Es martes")
+    print("Es día de semana.")
+elif dia == "miercoles":
+    print("Es Miércoles")
+    print("Es día de semana.")
+elif dia == "jueves":
+    print("Es jueves")
+    print("Es día de semana.")
+elif dia == "viernes":
+    print("Es viernes")
+    print("Es día de semana.")
+elif dia == "sabado":
+    print("Es sábado")
+    print("Es fin de semana!")
+else:
+    print("No se que día es ese.")</code></pre>
+      <p>El anterior es un ejemplo para probar el funcionamiento de los
+      condicionales. La función input permite introducir texto por
+      teclado y guardarlo en una variable.</p>
+      <h1>Trabajar en secciones:</h1>
+      <h2>Funciones</h2>
+      <h2>Clases</h2>
+      <h2>Strings</h2>
+      <h2>Listas</h2>
+      <h2>Tuplas</h2>
+      <h2>Bucles</h2>
+      <h2>Diccionarios</h2>
+      <h2>Algoritmos</h2>
+      <h2>Programación estructurada</h2>
+      <h2>Programación Orientada a Objetos</h2>
+      
+      <h2>Módulos</h2>
+      <h2>y las que se me ocurran</h2>
+      <h1>Esta web esta en construcción.</h1></section>
+      <footer>
+        <hr>
+        <address>
+          <a href="mailto:solaritocompu@gmail.com">
           Puede mandarme un email con preguntas o sugerencias.</a>
-      </address>
-      <br>
-      <a rel="license"
-      href="http://creativecommons.org/licenses/by/4.0/">
+        </address>
+        <br>
+        <a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/">
         <img alt="Creative Commons License" style="border-width:0"
         src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
-      <br>
-      This work is licensed under a
-      <a rel="license"
-      href="http://creativecommons.org/licenses/by/4.0/">
+        <br>
+        This work is licensed under a
+        <a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/">
         Creative Commons Attribution 4.0 International License</a>.
-</footer></body></html>
+        </footer></body></html>
+  
